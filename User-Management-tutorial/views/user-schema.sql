@@ -1,2 +1,0 @@
-CREATE TABLE `usermanagement_ful`.`user` ( `id` INT(5) NOT NULL AUTO_INCREMENT , `first_name` VARCHAR(25) NOT NULL ,
- `last_name` VARCHAR(25) NOT NULL , `email` VARCHAR(23) NOT NULL , `phone` VARCHAR(21) NOT NULL , `comments` TEXT NOT NULL , `satus` VARCHAR(21) NOT NULL DEFAULT 'active' , PRIMARY KEY (`id`)) ENGINE = MyISAM;
