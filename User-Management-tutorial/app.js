@@ -6,7 +6,8 @@ const Connection = require('mysql/lib/Connection');
 require('dotenv').config();
 const app=express();
 const port=process.env.PORT || 5000;
-
+const multer=require("multer");
+const upload = multer({storage:multer.memoryStorage()});
 //parsing middleware
 //parser application/x-www-form
 app.use(bodyParser.urlencoded({ extended:false}));
